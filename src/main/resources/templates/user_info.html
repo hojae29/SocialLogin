@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>login info</title>
+</head>
+<body>
+로그인 정보 페이지입니다.
+<p id="username">사용자명 : </p>
+<p id="email" th:text="${session.user.email}"></p>
+</body>
+</html>

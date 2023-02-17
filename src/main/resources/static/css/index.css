@@ -1,0 +1,60 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+* {
+    margin: 0;
+    font-family: "Pretendard";
+}
+
+.layout {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.login_container {
+    border: 1px solid black;
+    margin: 100px auto;
+    width: 300px;
+    padding: 1.5rem;
+}
+.login_container ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.login_container ul li a {
+    text-decoration: none;
+}
+
+.login_container ul li .login_btn {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    padding: 0.5rem 1rem;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+.login_container ul li .login_btn .logo {
+    position: absolute;
+    width: 1rem;
+    left: 1rem;
+}
+.login_container ul li .login_btn.kakao {
+    background-color: #fee500;
+}
+.login_container ul li .login_btn.kakao span {
+    color: #000;
+}
+.login_container ul li .login_btn.naver {
+    background-color: #03c75a;
+}
+.login_container ul li .login_btn.naver span {
+    color: #fff;
+}/*# sourceMappingURL=login1.css.map */
