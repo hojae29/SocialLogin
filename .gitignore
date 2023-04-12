@@ -6,7 +6,7 @@ build/
 !**/src/test/**/build/
 
 ### API KEY properties###
-/src/main/resources/application-API-KEY.properties
+#/src/main/resources/application-API-KEY.properties
 
 /gradle/
 
